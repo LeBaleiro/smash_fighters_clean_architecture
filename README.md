@@ -1,7 +1,7 @@
 # smash_fighters
 
 A Flutter project made using:
-- **Clean Dart** that follows all the *Clean Architecture* guidelines: 
+- **Clean Dart** that follows all the **Clean Architecture** guidelines: 
 https://github.com/Flutterando/Clean-Dart/blob/cce751ea0a22a796c3559ba458f50d9a0552c4ef/README_en.md
 
 - **Flutter Tiple** pattern for state management:  
