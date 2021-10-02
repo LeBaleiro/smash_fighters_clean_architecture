@@ -14,3 +14,6 @@ https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility
 - **Flutter Modular** for dependency injection and routes:
 https://pub.dev/packages/flutter_modular
 https://modular.flutterando.com.br/
+
+- **Hive** for cache:
+https://pub.dev/packages/hive
