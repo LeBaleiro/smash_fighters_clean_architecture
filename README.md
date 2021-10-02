@@ -1,6 +1,6 @@
 # smash_fighters
 
-![20211002_090416](https://user-images.githubusercontent.com/41401452/135715379-b0225be9-461e-45b9-a9fb-45cd02dd90a1.gif)
+https://user-images.githubusercontent.com/41401452/135715585-6ddac7d7-209b-4e95-8f48-cf8bede943f1.mp4
 
 A Flutter project made using:
 - **Clean Dart** that follows all the **Clean Architecture** guidelines:
