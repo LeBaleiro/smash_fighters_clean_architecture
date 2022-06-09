@@ -24,7 +24,7 @@ class _FightersPageState extends State<FightersPage> with LoadingMixin, ErrorMix
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(statusBarColor: Colors.transparent, statusBarIconBrightness: Brightness.dark),
     );
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       store.getFighters();
       store.getUniverses();
     });

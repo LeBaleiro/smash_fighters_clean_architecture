@@ -17,7 +17,7 @@ mixin ErrorMixin<T extends StatefulWidget> on State<T> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       _observerDisposer = store.observer(
         onError: (failure) {
           debugPrint("🔴 OCORREU UM ERRO - ${failure.message}");

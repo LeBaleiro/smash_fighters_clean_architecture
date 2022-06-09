@@ -11,7 +11,7 @@ mixin SplashMixin<T extends StatefulWidget> on State<T> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       Future.wait(futures + [Future.delayed(minDuration)])
           .then((list) => onFinishLoading(list.sublist(0, list.length - 1)))
           .catchError((ex) => debugPrint('[Splash Futures] $ex'));

@@ -17,7 +17,7 @@ mixin LoadingMixin<T extends StatefulWidget> on State<T> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback(
+    WidgetsBinding.instance.addPostFrameCallback(
       (timeStamp) {
         _observerDisposer = store.observer(onLoading: (isLoading) {
           if (isLoading) {
